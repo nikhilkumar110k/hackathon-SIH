@@ -7,6 +7,7 @@ class Example extends StatefulWidget {
 class _ExampleState extends State<Example> {
 
 
+
   List<String> _locations = ['harassement case', 'assault case', 'domestic violence', 'murder']; // Option 2
   late String _selectedLocation; // Option 2
 

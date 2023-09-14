@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'forms.dart';
-
-void main() {
-  runApp(MyApp());
-}
+import 'package:sihlegalaidhackathon/forms.dart';
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -69,8 +65,8 @@ class MyCustomFormState extends State<MyCustomForm> {
             keyboardType: TextInputType.datetime,
           ),
           Container(
-              padding: const EdgeInsets.only(left: 130.0, top: 40.0),
-              child: ElevatedButton(
+            padding: const EdgeInsets.only(left: 130.0, top: 40.0),
+            child: ElevatedButton(
                 child: const Text('Submit'),
                 onPressed: (){
                   Navigator.push(
@@ -79,13 +75,8 @@ class MyCustomFormState extends State<MyCustomForm> {
                     ),
                   );
                 }
-              ),
+            ),
           ),
         ],
       ),
     );
-  }
-}
-
-
-
